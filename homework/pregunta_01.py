@@ -57,9 +57,4 @@ def pregunta_01():
         datos["principales_palabras_clave"].append(" ".join(lista).rstrip("."))
 
     df = pd.DataFrame(datos)
-    print(df)
     return df
-            
-    
-
-pregunta_01()
